@@ -11,4 +11,4 @@ Certifique-se de ter o seguinte instalado em sua máquina antes de começar:
 ## Configuração
 
 1. Clone o repositório: `git clone https://github.com/lucasmarquesDev/OcorrenciaTrigger`
-3. Navegue até o diretório `Template.API` e execute `dotnet run` para iniciar a aplicação.
+3. Navegue até o diretório `OcorrenciaTrigger` e execute `dotnet run` para iniciar a aplicação.
