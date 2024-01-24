@@ -1,0 +1,17 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions.Generator-4.1.1",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "serviceBusTrigger",
+      "connection": "AzureServiceBusConnectionString",
+      "queueName": "ocorrenciaqueue",
+      "isSessionsEnabled": false,
+      "autoComplete": true,
+      "name": "myQueueItem"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/OcorrenciaTrigger.dll",
+  "entryPoint": "OcorrenciaTrigger.Function1.Run"
+}
