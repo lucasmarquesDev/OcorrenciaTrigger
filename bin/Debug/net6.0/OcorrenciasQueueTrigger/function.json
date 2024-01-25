@@ -13,5 +13,5 @@
   ],
   "disabled": false,
   "scriptFile": "../bin/OcorrenciaTrigger.dll",
-  "entryPoint": "OcorrenciaTrigger.Function1.Run"
+  "entryPoint": "OcorrenciaTrigger.OcorrenciasServiceBusQueueTrigger.Run"
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marqu\\source\\repos\\OcorrenciaTrigger\\OcorrenciaTrigger.csproj": {}
+    "C:\\Users\\Public\\Git\\OcorrenciaTrigger\\OcorrenciaTrigger.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marqu\\source\\repos\\OcorrenciaTrigger\\OcorrenciaTrigger.csproj": {
+    "C:\\Users\\Public\\Git\\OcorrenciaTrigger\\OcorrenciaTrigger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marqu\\source\\repos\\OcorrenciaTrigger\\OcorrenciaTrigger.csproj",
+        "projectUniqueName": "C:\\Users\\Public\\Git\\OcorrenciaTrigger\\OcorrenciaTrigger.csproj",
         "projectName": "OcorrenciaTrigger",
-        "projectPath": "C:\\Users\\marqu\\source\\repos\\OcorrenciaTrigger\\OcorrenciaTrigger.csproj",
-        "packagesPath": "C:\\Users\\marqu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marqu\\source\\repos\\OcorrenciaTrigger\\obj\\",
+        "projectPath": "C:\\Users\\Public\\Git\\OcorrenciaTrigger\\OcorrenciaTrigger.csproj",
+        "packagesPath": "C:\\Users\\smota\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Public\\Git\\OcorrenciaTrigger\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\marqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\smota\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
             "Microsoft.Azure.WebJobs.Extensions.ServiceBus": {
               "target": "Package",
               "version": "[4.3.0, )"

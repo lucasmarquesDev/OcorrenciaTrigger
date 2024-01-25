@@ -8,11 +8,20 @@
     ".NETCoreApp,Version=v6.0": {
       "OcorrenciaTrigger/1.0.0": {
         "dependencies": {
+          "FluentValidation": "11.9.0",
           "Microsoft.Azure.WebJobs.Extensions.ServiceBus": "4.3.0",
           "Microsoft.NET.Sdk.Functions": "4.1.1"
         },
         "runtime": {
           "OcorrenciaTrigger.dll": {}
+        }
+      },
+      "FluentValidation/11.9.0": {
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.9.0.0"
+          }
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.4": {
@@ -1722,6 +1731,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FluentValidation/11.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VneVlTvwYDkfHV5av3QrQ0amALgrLX6LV94wlYyEsh0B/klJBW7C8y2eAtj5tOZ3jH6CAVpr4s1ZGgew/QWyig==",
+      "path": "fluentvalidation/11.9.0",
+      "hashPath": "fluentvalidation.11.9.0.nupkg.sha512"
     },
     "Microsoft.AspNet.WebApi.Client/5.2.4": {
       "type": "package",
